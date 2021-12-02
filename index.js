@@ -17,6 +17,8 @@ let twitter = document.querySelector('#twitter');
 let blog = document.querySelector('#blog');
 let github = document.querySelector('#github');
 let dataText = document.querySelector('.text');
+dataContainer.style.display = 'none';
+dataContainerTwo.style.display = 'none';
 
 
 
