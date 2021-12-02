@@ -22,7 +22,6 @@ body{
     position: relative;
     display: flex;
     display: -webkit-flex;
-    display: none;
     text-align: center;
     justify-content: center;
 }
@@ -33,7 +32,6 @@ body{
 .title-container {
     display: flex;
     display: -webkit-flex;
-    display: none;
     justify-content: center;
     
 }
@@ -203,7 +201,6 @@ cursor: pointer;
     border-radius: 5pt;
     display: flex;
     display: -webkit-flex;
-    display: none;
     flex-direction: row;
     justify-content: space-evenly;
     color:#FFFFFF;
@@ -263,7 +260,6 @@ cursor: pointer;
     height:40px;
     display: flex;
     display: -webkit-flex;
-    display: hidden;
 
 }
 
@@ -300,7 +296,6 @@ cursor: pointer;
         height:450px;
         display: flex;
         display: -webkit-flex;
-        display: none;
         justify-content: center;
         text-align: center;
     }
@@ -325,7 +320,6 @@ cursor: pointer;
         width:280px;
         display: flex;
         display: -webkit-flex;
-        display: none;
         position: relative;
     }
 .data-container{
