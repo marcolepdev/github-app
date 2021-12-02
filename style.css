@@ -21,6 +21,7 @@ body{
     top:70px;
     position: relative;
     display: flex;
+    display: -webkit-flex;
     text-align: center;
     justify-content: center;
 }
@@ -30,6 +31,7 @@ body{
 
 .title-container {
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     
 }
@@ -80,6 +82,7 @@ cursor: pointer;
     top:50px;
     border-radius: 5pt;
     display: flex;
+    display: -webkit-flex;
 }
 
 .fa-search {
@@ -124,6 +127,7 @@ cursor: pointer;
     top:100px;
     border-radius: 5pt;
     display: flex;
+    display: -webkit-flex;
 }
 
 /* AVATAR CONTAINER */
@@ -195,6 +199,7 @@ cursor: pointer;
     background-color: #141c2f;
     border-radius: 5pt;
     display: flex;
+    display: -webkit-flex;
     flex-direction: row;
     justify-content: space-evenly;
     color:#FFFFFF;
@@ -219,6 +224,7 @@ cursor: pointer;
     position: relative;
     width:80px;
     height:70px;
+
 }
 
 #repos-title, #followers-title, #following-title {
@@ -231,6 +237,7 @@ cursor: pointer;
     width:600px;
     height:40px;
     display: flex;
+    display: -webkit-flex;
     font-size: 14px;
     margin: 0 auto;
     position: absolute;    
@@ -250,6 +257,7 @@ cursor: pointer;
     width:200px;
     height:40px;
     display: flex;
+    display: -webkit-flex;
 
 }
 
@@ -289,6 +297,7 @@ cursor: pointer;
     .user-container {
         height:450px;
         display: flex;
+        display: -webkit-flex;
         justify-content: center;
         text-align: center;
     }
@@ -312,12 +321,14 @@ cursor: pointer;
         left:10px;
         width:280px;
         display: flex;
+        display: -webkit-flex;
         position: relative;
     }
 .data-container{
     width:340px;
     margin: 0 auto;
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     text-align: center;
 }
@@ -333,6 +344,7 @@ cursor: pointer;
     width:340px;
     margin: 0 auto;
     display: flex;
+    display: -webkit-flex;
     justify-content: center;
     text-align: center;
 }
