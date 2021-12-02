@@ -272,7 +272,25 @@ cursor: pointer;
     color:white;
 }
 
+footer {
+    margin:0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    top:500px;
+    color:#FFFFFF;
+    }
 
+
+a {
+    text-decoration: none;
+    color:#FFFFFF;
+}
+
+.fa-heart {
+    color:red;
+} 
 
 
 
@@ -315,7 +333,7 @@ cursor: pointer;
     .follower-container{
         margin: 0 auto;
         height:80px;
-        top:210px;
+        top:235px;
         left:10px;
         width:280px;
         display: flex;
@@ -333,7 +351,7 @@ cursor: pointer;
 }
 
 #data-container {
-    margin-top: 50px;
+    margin-top: 70px;
 }
 .sub-data-container-one{
     margin-right: 40px;
@@ -357,4 +375,7 @@ cursor: pointer;
     margin-right: 40px;
 }
 
+footer {
+    top:565px;
+}
 }
