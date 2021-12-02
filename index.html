@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+      <!--axios CDN-->
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="title-container">
+            <div class="center-title">
+                <h3>devfinder</h3>
+            </div>
+                  
+        </div>
+        <!-- END OF TITLE CONTAINER-->
+
+        <div class="input-container">
+        <span><i class="fas fa-search"></i></span><input type="text" id="input-search" placeholder="Search GitHub username..."><span><button id="search-button">Search</button></span>
+        </div>
+        <div class="user-container">
+            <div class="avatar-container">
+<div class="avatar-image">
+<img src="" id="avatar"><span><h3 id="login-name"></h3></span><span><h5 id="joined"></h5></span>
+<h5 id="username"></h5>
+<h5 id="bio"></h5>
+</div>
+            </div>
+            <div class="follower-container">
+<div class="repos">
+    <h3 id="repos-title"></h3>
+    <p id="repos"></p>
+</div>
+<div class="followers">
+    <h3 id="followers-title"></h3>
+    <p id="followers"></p>
+</div>
+<div class="following">
+    <h3 id="following-title"></h3>
+    <p id="following"></p>
+</div>
+            </div>
+
+
+            <div class="data-container" id="data-container">
+                <div class="sub-data-container-one">
+                    <span><i class="fas fa-map-marker fa-1x"></i></span><p class="text" id="location"></p>  
+                </div>
+                <div class="sub-data-container-two">
+                    <span><i class="fab fa-twitter"></i></span><p class="text" id="twitter"></p>
+                </div>
+            </div>
+            <div class="data-container-two" id="data-container-two">
+                <div class="sub-data-container-three">
+                    <span><i class="fas fa-link fa-1x"></i></span><p class="text" id="blog"></p>
+                </div>
+                <div class="sub-data-container-four">
+                    <span><i class="fab fa-github"></i></span><p class="text" id="github"></p>
+                </div>
+            </div>
+
+
+
+        <!-- 
+        
+        -->
+
+            
+        </div>
+    </div>
+
+
+
+<script src="index.js"></script>
+<script src="https://use.fontawesome.com/0a8eaddd6a.js"></script>
+</body>
+</html>

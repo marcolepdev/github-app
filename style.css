@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Heebo:wght@200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #141c2f;
+    
+    font-family: 'Comic Neue';
+}
+
+/* MAIN CONTAINER */
+
+.main-container {
+    margin: 0 auto;
+    width:480px;
+    height:400px;
+    top:70px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+
+/* TITLE CONTAINER */
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.center-title {
+    font-size: 20px;
+    position: relative;
+    text-align: center;
+    left:1px;
+    font-family: 'Comic Neue';
+    color:#FFFFFF;
+}
+
+.right{
+    color:#FFFFFF;
+    position: absolute;
+    right: 40px;
+    font-family: 'Comic Neue';
+    font-weight: 200;
+    padding:5px;
+    background-color: transparent;
+}
+
+
+.fa-sun {
+    top:5px;
+    position: absolute;
+    right: 1px;
+    color:#FFFFFF;
+}
+
+.switch-btn {
+outline:none;
+border:none;
+background-color: transparent;
+color:#FFFFFF;
+cursor: pointer;
+}
+
+
+/* INPUT CONTAINER */
+
+.input-container {
+    width:600px;
+    height:40px;
+    background-color: #1f2a48;
+    position: absolute;
+    top:50px;
+    border-radius: 5pt;
+    display: flex;
+}
+
+.fa-search {
+    color:white;
+    position: absolute;
+    top:10px;
+    left:20px;
+}
+
+#input-search {
+    background-color:transparent;
+    border:none;
+    outline:none;
+    height:30px;
+    position: relative;
+    top:5px;
+    color:white;
+    left:50px;
+
+}
+
+#search-button {
+    position: absolute;
+    top:5px;
+    right:5px;
+    padding: 5px;
+    border-radius: 5pt;
+    border-color: transparent;
+    outline:none;
+    background-color: blue;
+    color:white;
+}
+
+
+/* USER CONTAINER */
+
+.user-container {
+    width:600px;
+    height:350px;
+    background-color: #1f2a48;
+    position: absolute;
+    top:100px;
+    border-radius: 5pt;
+    display: flex;
+}
+
+/* AVATAR CONTAINER */
+
+.avatar-container {
+    width:460px;
+    height:110px;
+    position: absolute;
+    margin: 0 auto;
+}
+
+.avatar-image {
+    width:80px;
+    height:80px;
+    position: relative;
+    top:10px;
+    left:10px;
+}
+#avatar {
+    width:80px;
+    height:8 q  0px;
+    border-radius: 50%;
+}
+
+#login-name {
+    position: absolute;
+    left:120px;
+    width:130px;
+    top:10px;
+    color:#FFFFFF;
+    text-align: left;
+
+    
+}
+
+#joined {
+    top:15px;
+    position: absolute;
+    left:250px;
+    color:white;
+    width:200px;
+}
+
+
+#username {
+    top:45px;
+    position: absolute;
+    left:120px;
+    color:#FFFFFF;
+    width:130px;
+    text-align: left;
+}
+
+#bio {
+    top:80px;
+    position: absolute;
+    left:100px;
+    color:white;
+    width:300px;
+
+}
+.follower-container {
+    width:300px;
+    height:70px;
+    position: relative;
+    margin: 0 auto;
+    top:160px;
+    left:50px;
+    background-color: #141c2f;
+    border-radius: 5pt;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    color:#FFFFFF;
+}
+
+.repos {
+    width:80px;
+    height:70px;
+    top:10px;
+    position: relative;
+}
+
+.followers {
+    top:10px;
+    position: relative;
+    width:80px;
+    height:70px;
+}
+
+.following {
+    top:10px;
+    position: relative;
+    width:80px;
+    height:70px;
+}
+
+#repos-title, #followers-title, #following-title {
+    color:#dedede;
+    font-size: 16px;
+}
+
+
+.data-container, .data-container-two {
+    width:600px;
+    height:40px;
+    display: flex;
+    font-size: 14px;
+    margin: 0 auto;
+    position: absolute;    
+    justify-content: space-around;
+    flex-direction: row;
+
+}
+
+#data-container {
+    top:260px;
+}
+#data-container-two {
+    top:310px;
+}
+
+.sub-data-container-one, .sub-data-container-two, .sub-data-container-three, .sub-data-container-four {
+    width:200px;
+    height:40px;
+    display: flex;
+
+}
+
+.text {
+    margin-left:10px;
+    color:#FFFFFF;
+}
+
+
+
+ 
+
+.fas, .fab{
+    color:white;
+}
+
+
+
+
+
+
+/* MEDIA QUERIES */
+@media only screen and (max-width:600px) {
+    .main-container {
+        width:380px;
+    }
+
+    .title-container, .input-container, .user-container, .avatar-container, .location-container {
+        width: 360px;
+    }
+
+    .avatar-container{
+        height:130px;
+    }
+
+
+    .user-container {
+        height:450px;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #joined{
+        top:1px;
+        position: relative;
+        left:80px;
+    }
+
+    #bio {
+        position: relative;
+        top:50px;
+        left:25px;
+    }
+
+    .follower-container{
+        margin: 0 auto;
+        height:80px;
+        top:210px;
+        left:10px;
+        width:280px;
+        display: flex;
+        position: relative;
+    }
+.data-container{
+    width:340px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#data-container {
+    margin-top: 50px;
+}
+.sub-data-container-one{
+    margin-right: 40px;
+}
+
+.data-container-two{
+    width:340px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+#data-container-two {
+    margin-top: 80px;
+}
+.sub-data-container-two{
+    margin-right: 40px;
+}
+
+}
