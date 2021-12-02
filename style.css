@@ -33,8 +33,8 @@ body{
 .title-container {
     display: flex;
     display: -webkit-flex;
-    justify-content: center;
     display: hidden;
+    justify-content: center;
     
 }
 
@@ -130,7 +130,6 @@ cursor: pointer;
     border-radius: 5pt;
     display: flex;
     display: -webkit-flex;
-    display: hidden;
 }
 
 /* AVATAR CONTAINER */
@@ -271,10 +270,6 @@ cursor: pointer;
     margin-left:10px;
     color:#FFFFFF;
 }
-
-
-
- 
 
 .fas, .fab{
     color:white;
