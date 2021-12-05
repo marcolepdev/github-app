@@ -8,6 +8,7 @@ let repo = document.querySelector('#repos');
 let followers = document.querySelector('#followers');
 let following = document.querySelector('#following');
 let reposTitle = document.querySelector('#repos-title');
+let followerContainer = document.querySelector('.follower-container');
 let followersTitle = document.querySelector('#followers-title');
 let followingTitle = document.querySelector('#following-title');
 let dataContainer = document.querySelector('.data-container');
@@ -74,7 +75,7 @@ button.onclick = async function getData() {
             followingTitle.textContent = 'Following';
             followers.textContent = data.followers.toString(10);
             following.textContent = data.following.toString(10);
-
+            followerContainer.style.display = 'flex';
             dataContainer.style.display = 'flex';
             dataContainerTwo.style.display = 'flex';            
             locationMap.textContent = data.location;
