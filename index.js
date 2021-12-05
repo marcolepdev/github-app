@@ -110,7 +110,7 @@ button.onclick = async function getData() {
 
                 //In case of errors, shows 
                 .catch (error =>
-                alert(error));
+                alert("Please ype a valid username"));
                 
                     
 
