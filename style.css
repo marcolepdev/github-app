@@ -201,6 +201,7 @@ cursor: pointer;
     border-radius: 5pt;
     display: flex;
     display: -webkit-flex;
+    display: none;
     flex-direction: row;
     justify-content: space-evenly;
     color:#FFFFFF;
